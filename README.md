@@ -1,6 +1,12 @@
 # Position Annotated BLE RSSI Dataset for Indoor Localization
 ## Introduction
-This dataset is intended for the researchers that work in indoor positioning domain and want to use RSSI parameters that are labeled with highly precise ground truth positions. The data are collected from a setup of multiple Bluetooth sensors that track a Bluetooth beacon that navigate in the environment. For a complete introduction to the setup and the method that collects and synchronizes the data, please cite and refer to [[1]](#1).
+This dataset is intended for the researchers that work in indoor positioning domain and want to use RSSI parameters that are labeled with highly precise ground truth positions. The data are collected from a setup of multiple Bluetooth sensors that track a Bluetooth beacon that navigate in the environment. 
+
+- For a complete introduction to the setup and the method that collects and synchronizes the data, please cite and refer to [[1]](#1). 
+- In order to see how to build a Sequential Monte Carlo (Particle Filter) based algorithm that employs these data to infer the positions of a navigated emitter, see [[2]](#2). 
+- To estimate probabilistic radio frequency maps using Affine Wasserstein Combination that takes stationary information, refer to [[3]](#3).
+- To infer probabilistic radio frequency maps using neural networks, refer to [[4]](#4).
+- To make inferences on positions using Bayesian forward algorithm, refer to [[5]](#5).
 
 ## Top Level Directory Descriptions
 The files in the dataset include different levels of information that are used to infer the positions that the beacon is on.
@@ -15,7 +21,8 @@ Grid files are composed of the probabilistic radio frequency maps of the area es
 Track files include RSSI data collected by multiple sensors while navigating the beacon in the area. The files also include the ground truth positions so that that a direct evaluation of the inference becomes possible.
 
 ### occ: occupancy files
-Occupancy information of the area.
+Occupancy information of the area. Passable and occluded areas can be easily introduced into localization algorithms and the accuracy can be increased with light tweaks. See [[3]](#3) for further details.
+
 
 conf: configuration files
 maps: area images
