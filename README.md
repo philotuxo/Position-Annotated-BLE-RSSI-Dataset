@@ -92,7 +92,7 @@ Sila Guler, F. Serhan Danis, and Ali Taylan Cemgil. Radio map estimation with ne
 Practical indoor localization, by exploiting electromagnetic scattering properties of local area networks, can be formulated as a tracking problem using a Hidden Markov model with a radio map as the observation model. Accurate estimation of the radio map is key in accurate indoor localization but this requires dense sampling of the electromagnetic field, also named as fingerprinting. To decrease the time consuming fingerprinting process, we represent the observation model by a neural network and train it using an active learning strategy based on uncertainty sampling aided by a Gaussian process. Our results indicate that the same localization performance can be maintained with less fingerprint measurements using our approach.
 
 **Bibtex**
-<pre>@inproceedings{guler2019,
+<pre>@inproceedings{guler2019ipin,
   author = {Sila Guler and F. Serhan Danis and Ali Taylan Cemgil},
   title = {RADIO MAP ESTIMATION WITH NEURAL NETWORKS AND ACTIVE  LEARNING FOR INDOOR LOCALIZATION},
   pages = {25--31},
