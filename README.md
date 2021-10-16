@@ -2,11 +2,11 @@
 ## Introduction
 This dataset is intended for the researchers that work in indoor positioning domain and want to use RSSI parameters that are labeled with highly precise ground truth positions. The data are collected from a setup of multiple Bluetooth sensors that track a Bluetooth beacon that navigate in the environment. 
 
-- For a complete introduction to the setup and the method that collects and synchronizes the data, please cite and refer to [(Daniş _et al_, ?)](#1). 
-- In order to see how to build a Sequential Monte Carlo (Particle Filter) based algorithm that employs these data to infer the positions of a navigated emitter, see [(Daniş _et al_, 2021)](#2). 
-- To estimate probabilistic radio frequency maps using Affine Wasserstein Combination that takes stationary information, refer to [(Daniş _et al_, 2017)](#3).
-- To infer probabilistic radio frequency maps using neural networks, refer to [(Güler _et al_, 2019)](#4).
-- To make inferences on positions using Bayesian forward algorithm, refer to [(Daniş _et al_, 2021)](#5).
+- For a complete introduction to the setup and the method that collects and synchronizes the data, please refer to [(Daniş _et al_, ?)](#1). 
+- In order to see how to build a Sequential Monte Carlo (Particle Filter) based algorithm that employs these data to infer the positions of a navigated emitter, please see [(Daniş _et al_, 2021)](#2).
+- To estimate probabilistic radio frequency maps using Affine Wasserstein Combination that takes stationary information, please refer to [(Daniş _et al_, 2017)](#3).
+- To infer probabilistic radio frequency maps using neural networks, please refer to [(Güler _et al_, 2019)](#4).
+- To make inferences on positions using Bayesian forward algorithm, please refer to [(Daniş _et al_, 2021)](#5).
 
 ## Top Level Directory Descriptions
 The files in the dataset include different levels of information that are used to infer the positions that the beacon is on.
@@ -30,9 +30,7 @@ maps: area images
 # References
 
 ## <a id="1">Daniş et al, ?</a>
-F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy
-An Indoor Localization Dataset and Data Collection Framework with High Precision Position Annotation
-*Submitted to Pervasive and Mobile Computing.*
+F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy, An Indoor Localization Dataset and Data Collection Framework with High Precision Position Annotation, *Submitted to Pervasive and Mobile Computing.*
 
 ### Abstract
 We introduce a novel technique and an associated dataset for high resolution evaluation of wireless indoor positioning algorithms. The technique makes use of an Augmented Reality (AR) based positioning system to annotate the wireless signal parameter data samples with high precision position data. We track the position of a practical and low cost navigable setup of cameras and a Bluetooth Low Energy (BLE) beacon in an area decorated with AR markers. We maximize the performance of the AR-based localization by using a redundant number of markers. Video streams captured by the cameras are subjected to a series of marker recognition, subset selection and filtering operations to yield highly precise pose estimations. Our results show that we can reduce the positional error of AR localization system to a rate under 0.05 meters. The position data are then used to annotate the unreliable BLE data that are captured simultaneously by the sensors stationed in the environment, hence, constructing a wireless signal data set with the ground truth, which allows a wireless signal based localization system to be evaluated accurately.
@@ -43,12 +41,30 @@ We introduce a novel technique and an associated dataset for high resolution eva
   author={F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy},
   journal={SUBMITTED to Pervasive and Mobile Computing},
   title={An Indoor Localization Dataset and Data Collection Framework with High Precision Position Annotation}, 
-  year={2021},
+  year={?},
   volume={},
   number={},
   pages={},
 }
 </pre>
+
+## <a id="2">Daniş et al, 2021</a> 
+F. S. Daniş, A. T. Cemgil, and C. Ersoy. Adaptive sequential monte carlo filter for indoor positioning and tracking with bluetooth low energy beacons. _IEEE Access_, 9:37022–37038, 2021.
+
+### Abstract
+We model the tracking of Bluetooth low-energy (BLE) transmitters as a three layer hidden Markov model with joint state and parameter estimation. We are after a filtering distribution by Bayesian approximation using Monte Carlo sampling techniques. In a test environment decorated with multiple BLE sensors, the tracking relies only on the naturally unreliable received signal strength indicator (RSSI) of the captured signals. We assume that the tracked BLE transmitter does not provide any other motion or position related information. Hence, the transition density is designed to be merely a diffusion where the probability measures are diffused into the neighboring space. This makes the diagonal error covariance factor of the prediction density, namely the diffusion factor, the most important parameter to be tuned on the fly. We first show an experimental proof of concept using synthetic data on real trajectories by comparing three parameter estimation approaches: static, decaying and adaptive diffusion factors. We then obtain the results on real data which show that online parameter sampling adapts to the observed data and yields lower error means and medians, but more importantly steady error distributions with respect to a large range of parameters.
+
+### Bibtex
+<pre>@ARTICLE{danis2021access,
+  author={F. S. {Daniş} and A. T. {Cemgil} and C. {Ersoy}},
+  journal={IEEE Access}, 
+  title={Adaptive Sequential Monte Carlo Filter for Indoor Positioning and Tracking With Bluetooth Low Energy Beacons}, 
+  year={2021},
+  volume={9},
+  number={},
+  pages={37022-37038},
+  doi={10.1109/ACCESS.2021.3062818}
+}</pre>
 
 
 ## <a id="3">Daniş and Cemgil, 2017</a> 
@@ -72,3 +88,22 @@ ISSN = {1424-8220},
 DOI = {10.3390/s17112484}
 }
 </pre>
+
+## <a id="5">Daniş et al, 2021</a> 
+F. Serhan Daniş, A. Taylan Cemgil, and Cem Ersoy. Tracking a mobile beacon: A pure probabilistic approach. In 2021 International Conference on Indoor Positioning and Indoor Navigation (IPIN) (ACCEPTED),Lloret de Mar, Spain, 2021.
+
+### Abstract
+We construct a practical and real-time probabilistic framework for fine target tracking. The practicality comes from the application of the forward algorithm and the small parameter set used to build the state space model (SSM). A Bluetooth Low-Energy (BLE) beacon navigating in the environment publishes BLE packets which are captured by the stationary sensors. Fingerprints are formed by collecting received signal strength indicators (RSSI) of these packets, which are then processed into high resolution emission matrix using a histogram combination technique. We convert the map of the area into a grid structure, the resolution of which is controlled by the grid cell size. The transition matrices are built by Gaussian blur masks parametrized by the size and diffusion extent. As the transition matrix is highly sparse, we make the exact inference tractable by adopting a sparse matrix representation and by intelligently controlling the mask size, diffusion factor and grid cell size. Filtering can then be directly performed by the forward algorithm given a series of real RSSI measurements along real trajectories. We measure the performance of the system by comparing the most likely positions at each step with the ground truth positions. We achieve promising results and evaluate the approach also by the runtime and memory usage.
+
+### Bibtex
+@INPROCEEDINGS{danis2021ipin,
+  author={F. Serhan Daniş and A. Taylan Cemgil and Cem Ersoy},
+  booktitle={2021 International Conference on Indoor Positioning and Indoor Navigation (IPIN) (ACCEPTED)},
+  title={Tracking a Mobile Beacon: A Pure Probabilistic Approach},
+  year={2021},
+  venue = {Lloret de Mar, Spain},
+  eventdate = {2021-11-29},
+  volume={},
+  number={},
+  doi={10.1109/IPIN.2019.8911800}
+}
