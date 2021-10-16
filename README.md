@@ -29,7 +29,7 @@ maps: area images
 
 # References
 
-## <a id="1">Daniş et al, ?</a>
+**<a id="1">Daniş et al, ?</a>**
 F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy. An Indoor Localization Dataset and Data Collection Framework with High Precision Position Annotation, *Submitted to Pervasive and Mobile Computing.*
 
 **Abstract:**
@@ -65,7 +65,7 @@ We model the tracking of Bluetooth low-energy (BLE) transmitters as a three laye
 }</pre>
 
 
-## <a id="3">Daniş and Cemgil, 2017</a> 
+**<a id="3">Daniş and Cemgil, 2017</a>**
 FS Daniş and AT Cemgil, “Model-Based Localization and Tracking Using Bluetooth Low-Energy Beacons,” *Sensors*, vol. 17, no. 11, p. 2484, Oct. 2017.
 
 **Abstract:**
