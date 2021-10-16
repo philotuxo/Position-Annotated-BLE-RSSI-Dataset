@@ -23,9 +23,11 @@ Track files include RSSI data collected by multiple sensors while navigating the
 ### occ: occupancy files
 Occupancy information of the area. Passable and occluded areas can be easily introduced into localization algorithms and the accuracy can be increased with light tweaks. See [[3]](#3) for further details.
 
+### cnf: configuration files
+Configuration files that describe the positions of the sensors and various parameters that can be used to do conversions between pixel coordinates on the maps and the coordinate frame of the area.
 
-conf: configuration files
-maps: area images
+### map: images of area maps
+Images of the area map that include the stationary sensors, furnitures, walls and columns.
 
 # References
 
