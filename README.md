@@ -33,6 +33,7 @@ F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy
 An Indoor Localization Dataset and Data Collection Framework with High Precision Position Annotation
 *Submitted to Pervasive and Mobile Computing.*
 
+<p>
 @ARTICLE{danis2021pmc,
   author={F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy},
   journal={SUBMITTED to Pervasive and Mobile Computing},
@@ -42,6 +43,7 @@ An Indoor Localization Dataset and Data Collection Framework with High Precision
   number={},
   pages={},
 }
+</p>
 
 <a id="2">[2]</a> 
 F. Daniş and A. Cemgil, “Model-Based Localization and Tracking Using Bluetooth Low-Energy Beacons,” *Sensors*, vol. 17, no. 11, p. 2484, Oct. 2017.
