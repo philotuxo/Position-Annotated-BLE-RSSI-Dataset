@@ -85,7 +85,7 @@ ISSN = {1424-8220},
 DOI = {10.3390/s17112484}
 }</pre>
 
-**<a id="4">(Daniş et al, 2021)</a>** 
+**<a id="4">(Güler et al, 2019)</a>** 
 Sila Guler, F. Serhan Danis, and Ali Taylan Cemgil. Radio map estimation with neural networks and active learning for indoor localization. In Francesco Potorti, Valérie Renaudin, Kyle O’Keefe, and Filippo Palumbo, editors, _Proceedings of the Tenth International Conference on Indoor Positioning and Indoor Navigation - Work-in-Progress Papers_, number 2498 in CEUR Workshop Proceedings, pages 25–31, Aachen, 2019.
 
 **Abstract:**
