@@ -1,4 +1,4 @@
-# Position Annotated BLE RSSI dataset for indoor localization
+# Position Annotated BLE RSSI Dataset for Indoor Localization
 ## Introduction
 This dataset is intended for the researchers that work in indoor positioning domain and want to use RSSI parameters that are labeled with highly precise ground truth positions. The data are collected from a setup of multiple Bluetooth sensors that track a Bluetooth beacon that navigate in the environment. For a complete introduction to the setup and the method that collects and synchronizes the data, please cite and refer to [[1]](#1).
 
@@ -24,9 +24,8 @@ maps: area images
 <a id="1">[1]</a> 
 F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy
 An Indoor Localization Dataset and Data Collection Framework with High Precision Position Annotation
-Submitted to Pervasive and Mobile Computing.
+*Submitted to Pervasive and Mobile Computing.*
 
-### bibtex
 @ARTICLE{danis2021pmc,
   author={F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy},
   journal={SUBMITTED to Pervasive and Mobile Computing},
@@ -38,11 +37,8 @@ Submitted to Pervasive and Mobile Computing.
 }
 
 <a id="2">[2]</a> 
-F. Serhan Daniş and A. Taylan Cemgil (2017)
-Model-Based Localization and Tracking Using Bluetooth Low-Energy Beacons, 
-Sensors. 2017; 17(11):2484
+F. Daniş and A. Cemgil, “Model-Based Localization and Tracking Using Bluetooth Low-Energy Beacons,” *Sensors*, vol. 17, no. 11, p. 2484, Oct. 2017.
 
-### bibtex
 @Article{danis2017sensors,
 AUTHOR = {Daniş, F. Serhan and Cemgil, A. Taylan},
 TITLE = {Model-Based Localization and Tracking Using Bluetooth Low-Energy Beacons},
