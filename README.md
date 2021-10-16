@@ -1,8 +1,8 @@
 # Position Annotated BLE RSSI Dataset for Indoor Localization
 ## Introduction
-This dataset is intended for the researchers that work in indoor positioning domain and want to use RSSI parameters that are labeled with highly precise ground truth positions. The data are collected from a setup of multiple Bluetooth sensors that track a Bluetooth beacon that navigate in the environment. 
+This dataset is intended for the researchers that work in indoor positioning domain and want to use RSSI parameters that are labeled with highly precise ground truth positions. The data are collected from a setup of multiple distributed Bluetooth sensors that track a Bluetooth beacon that navigate in the environment. 
 
-- For a complete introduction to the setup and the method that collects and synchronizes the data, please refer to [(Daniş _et al_, ?)](#1). 
+- For a complete introduction to the distributed sensing setup and the method that collects and synchronizes the data, please refer to [(Daniş _et al_, ?)](#1). 
 - In order to see how to build a Sequential Monte Carlo (Particle Filter) based algorithm that employs these data to infer the positions of a navigated emitter, please see [(Daniş _et al_, 2021)](#2).
 - To estimate probabilistic radio frequency maps using Affine Wasserstein Combination that takes stationary information, please refer to [(Daniş _et al_, 2017)](#3).
 - To infer probabilistic radio frequency maps using neural networks, please refer to [(Güler _et al_, 2019)](#4).
