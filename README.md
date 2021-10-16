@@ -35,7 +35,7 @@ F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy. An In
 ### Abstract
 We introduce a novel technique and an associated dataset for high resolution evaluation of wireless indoor positioning algorithms. The technique makes use of an Augmented Reality (AR) based positioning system to annotate the wireless signal parameter data samples with high precision position data. We track the position of a practical and low cost navigable setup of cameras and a Bluetooth Low Energy (BLE) beacon in an area decorated with AR markers. We maximize the performance of the AR-based localization by using a redundant number of markers. Video streams captured by the cameras are subjected to a series of marker recognition, subset selection and filtering operations to yield highly precise pose estimations. Our results show that we can reduce the positional error of AR localization system to a rate under 0.05 meters. The position data are then used to annotate the unreliable BLE data that are captured simultaneously by the sensors stationed in the environment, hence, constructing a wireless signal data set with the ground truth, which allows a wireless signal based localization system to be evaluated accurately.
 
-### Bibtex
+**Bibtex**
 <pre>@ARTICLE{danis2021pmc,
   author={F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy},
   journal={SUBMITTED to Pervasive and Mobile Computing},
