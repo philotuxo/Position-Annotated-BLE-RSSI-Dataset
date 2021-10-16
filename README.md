@@ -45,9 +45,14 @@ An Indoor Localization Dataset and Data Collection Framework with High Precision
 }
 </p>
 
-<a id="2">[2]</a> 
-F. Daniş and A. Cemgil, “Model-Based Localization and Tracking Using Bluetooth Low-Energy Beacons,” *Sensors*, vol. 17, no. 11, p. 2484, Oct. 2017.
 
+### <a id="3">(Daniş and Cemgil, 2017)</a> 
+FS Daniş and AT Cemgil, “Model-Based Localization and Tracking Using Bluetooth Low-Energy Beacons,” *Sensors*, vol. 17, no. 11, p. 2484, Oct. 2017.
+
+### Abstract
+We introduce a high precision localization and tracking method that makes use of cheap Bluetooth low-energy (BLE) beacons only. We track the position of a moving sensor by integrating highly unreliable and noisy BLE observations streaming from multiple locations. A novel aspect of our approach is the development of an observation model, specifically tailored for received signal strength indicator (RSSI) fingerprints: a combination based on the optimal transport model of Wasserstein distance. The tracking results of the entire system are compared with alternative baseline estimation methods, such as nearest neighboring fingerprints and an artificial neural network. Our results show that highly accurate estimation from noisy Bluetooth data is practically feasible with an observation model based on Wasserstein distance interpolation combined with the sequential Monte Carlo (SMC) method for tracking.
+
+### Bibtex
 <pre>
 @Article{danis2017sensors,
 AUTHOR = {Daniş, F. Serhan and Cemgil, A. Taylan},
@@ -59,7 +64,6 @@ NUMBER = {11},
 ARTICLE--NUMBER = {2484},
 URL = {http://www.mdpi.com/1424-8220/17/11/2484},
 ISSN = {1424-8220},
-ABSTRACT = {We introduce a high precision localization and tracking method that makes use of cheap Bluetooth low-energy (BLE) beacons only. We track the position of a moving sensor by integrating highly unreliable and noisy BLE observations streaming from multiple locations. A novel aspect of our approach is the development of an observation model, specifically tailored for received signal strength indicator (RSSI) fingerprints: a combination based on the optimal transport model of Wasserstein distance. The tracking results of the entire system are compared with alternative baseline estimation methods, such as nearest neighboring fingerprints and an artificial neural network. Our results show that highly accurate estimation from noisy Bluetooth data is practically feasible with an observation model based on Wasserstein distance interpolation combined with the sequential Monte Carlo (SMC) method for tracking.},
 DOI = {10.3390/s17112484}
 }
 </pre>
