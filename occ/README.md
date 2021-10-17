@@ -6,8 +6,8 @@ File name pattern:
 <pre>&lt;data_set&gt;_&lt;resolution&gt;.occ</pre>
 
 Header:
-<pre>&lt;rectangular_limits&gt;::&lt;resolution&gt;</pre
+<pre>&lt;rectangular_limits&gt;::&lt;resolution&gt;</pre>
 Lines:
-<pre>&lt;2D_grid_coordinate&gt;::&lt;occupancy&gt;</pre
+<pre>&lt;2D_grid_coordinate&gt;::&lt;occupancy&gt;</pre>
 
 The researchers who want to use these data may cite (Daniş _et al_, 2021).
