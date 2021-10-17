@@ -8,8 +8,9 @@ The directory and the file names follow the following pattern:
 Sample file name:
 <pre>"wassBest" _ "0.2" / "tetam_rssi" _ "000000000401" _ "0.2" .grd</pre>
 
-The histograms on the grids estimated by using the Wasserstein interpolation method. The histograms on the grid structure  can also be regarded as an estimate for the probabilistic radio frequency map. The researchers that want to use the grid data can cite this article [1].
+The histograms on the grids are estimated by using the Wasserstein interpolation method. The histograms on the grid structure can also be regarded as an estimate for the probabilistic radio frequency map. The researchers that want to use the grid data and the method to interpolate between histograms can cite this article: (Daniş and Cemgil, Sensors, 2017)
 
+The file structure is as follows:
 Header:
 <pre>&lt;sensor_mac&gt;::&lt;rectangular_limits&gt;::&lt;resolution&gt;::&lt;histogram_bins&gt;</pre>
 Lines:
