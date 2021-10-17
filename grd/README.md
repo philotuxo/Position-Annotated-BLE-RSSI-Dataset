@@ -1,6 +1,11 @@
 # Grids
 
-Interpolated fingerprint histograms on a grid map. We provide four versions with different resolutions: 0.1, 0.2, 0.5 and 1.0 meters for grid cell size. 
+Interpolated fingerprint histograms on a grid map. We provide four versions with different resolutions: 0.1, 0.2, 0.5 and 1.0 meters for grid cell size. You can see these grid structures in the following images:
+
+![Grids](./tetam_grd_0.1.png "Grids")
+![Grids](./tetam_grd_0.2.png "Grids")
+![Grids](./tetam_grd_0.5.png "Grids")
+![Grids](./tetam_grd_1.0.png "Grids")
 
 The directory and the file names follow the following pattern:
 <pre>&lt;interpolation_type&gt;_&lt;grid_cell_size&gt;/&lt;data_set&gt;_&lt;signal_parameter&gt;_&lt;sensor_mac&gt;_&lt;grid_cell_size&gt;.grd</pre>
