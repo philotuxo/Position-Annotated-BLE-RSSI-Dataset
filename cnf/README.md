@@ -17,4 +17,4 @@ The lines starting with
 - Beacons: show the beacon information
   
 The format of each device in Python dict:
-<MAC Address>: [ <3D position>, <color>, <alias> ]
+<pre>&lt;MAC Address&gt;: [ &lt;3D position&gt;, &lt;color&gt;, &lt;alias&gt; ]</pre>
