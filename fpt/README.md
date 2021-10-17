@@ -8,5 +8,5 @@ Data directory for the fingerprints (or stationary reference points): we provide
 The data sets consist of the files whose names have the following pattern:
 <pre>&lt;sensor_alias&gt;_&lt;pos_x&gt;_&lt;pos_y&gt;_&lt;pos_z&gt;.mbd</pre>
 
-Each file consists of lines that have the following pattern:
-<timestamp>,<MAC sensor>,<MAC beacon>,<RSSI>
+The contents of the files that have the following pattern for each line:
+<pre>&lt;timestamp&gt;,&lt;MAC sensor&gt;,&lt;MAC beacon&gt;,&lt;RSSI&gt;</pre>
