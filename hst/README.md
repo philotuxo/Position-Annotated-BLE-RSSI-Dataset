@@ -26,4 +26,4 @@ The lines starting with
 - Dongles: Same as the dongles in the file "tetam.dev"
 - Beacons: Same as the beacons in the file "tetam.dev"
 - Fingerprints: Nested Python dictionaries in the following format:
-<pre>{&lt;3D position&gt;:{&lt;sensor&gt;:{&lt;beacon&gt;:&lt;list of probability measures&gt;,},},}</pre>
+<pre>{&lt;3D position&gt;:{&lt;sensor&gt;:{&lt;beacon&gt;:&lt;list of probability measures&gt;, ...}, ... }, ...}</pre>
