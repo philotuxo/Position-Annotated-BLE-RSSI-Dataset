@@ -1,6 +1,7 @@
 ## Fingerprints
 
-Data directory for the fingerprints (or stationary reference histograms): we provide two fingerprint data sets collected from the area: "set_1" and "set_2" collected at different dates. The fingerprint positions for set_1 and set-2 are given respectively in the following images:
+Data directory for the fingerprints (or stationary reference histograms): we provide two fingerprint data sets collected from the area: "set_1" and "set_2" collected at different dates. The fingerprint positions (gray dots) for set_1 and set-2 are given respectively in the following images:
+
 ![Fingerprint positions for set_1](./hst_set_1.png "Fingerprint positions for set_1")
 ![Fingerprint positions for set_2](./hst_set_2.png "Fingerprint positions for set_2")
 
