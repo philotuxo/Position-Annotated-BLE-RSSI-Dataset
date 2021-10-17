@@ -1,6 +1,6 @@
 # Grids
 
-Interpolated fingerprint histograms on a grid map. We provide four versions with different resolutions: 0.1, 0.2, 0.5 and 1.0 meters for grid cell size. You can see these grid structures in the following images:
+The fingerprint histograms are interpolated according to Affine Wasserstein Combination to generate the histograms on unknown positions, as if those are the fingerprint or reference positions. We provide four versions with different resolutions: 0.1, 0.2, 0.5 and 1.0 meters for grid cell size. You can see these grid structures in the following images:
 
 ![Grids](./tetam_grd_0.1.png "Grids")
 ![Grids](./tetam_grd_0.2.png "Grids")
