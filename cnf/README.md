@@ -3,10 +3,10 @@
 ### tetam.par
 Parameters file: a json file that includes the parameters used for conversion between the units.
 
-- "origin": (px) the position of the origin of the area in the map image
-- "limits: (m) the rectangular area that the algorithms are tested.
-- "direction": (matrix) the rotation matrix from the pixel space to pixel space
-- "parity": (m/px) measurement of a pixel edge in metric space
+- "origin": (px) the position of the origin of the area in the map image.
+- "limits: (m) the rectangle where the algorithms are to be performed.
+- "direction": (matrix) the rotation matrix from 2D real world to 2D pixel space.
+- "parity": (m/px) measurement of a pixel edge in metric space.
 
 ### tetam.dev
 
