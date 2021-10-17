@@ -5,10 +5,10 @@ We provide the files of occupancy grids at different resolutions, 0.1, 0.2, 0.5 
 ![Sample occupancy map](./tetam_occ_0.1.png "Sample Occupancy Map")
 
 File name pattern: 
-<pre>&lt;data_set&gt;_&lt;grid_size&gt;.occ</pre>
+<pre>&lt;data_set&gt;_&lt;grid_cell_size&gt;.occ</pre>
 
 Header:
-<pre>&lt;rectangular_limits&gt;::&lt;grid_size&gt;</pre>
+<pre>&lt;rectangular_limits&gt;::&lt;grid_cell_size&gt;</pre>
 Lines:
 <pre>&lt;2D_grid_coordinate&gt;::&lt;occupancy&gt;</pre>
 
