@@ -3,10 +3,10 @@
 We provide the files of occupancy grids at different resolutions, 0.1, 0.2, 0.5 and 1.0 meters per grid cell. If a grid is traversable by a person, or the navigable platform it is marked with 1, or with 0, otherwise.
 
 File name pattern: 
-<pre>&lt;data_set&gt;_&lt;resolution&gt;.occ</pre>
+<pre>&lt;data_set&gt;_&lt;grid_size&gt;.occ</pre>
 
 Header:
-<pre>&lt;rectangular_limits&gt;::&lt;resolution&gt;</pre>
+<pre>&lt;rectangular_limits&gt;::&lt;grid_size&gt;</pre>
 Lines:
 <pre>&lt;2D_grid_coordinate&gt;::&lt;occupancy&gt;</pre>
 
