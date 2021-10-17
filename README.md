@@ -11,7 +11,7 @@ This dataset is intended for the researchers that work in indoor positioning dom
 ## Top Level Directory Descriptions
 The directories in the dataset include different levels of information that are used to infer the positions that the beacon is on. Each directory has its own README.md that describe the data format and other assistive information.
 
-### fpt: fingerprint files
+### hst: fingerprint histogram files
 The directory comprises of RSSI data collected by multiple sensors from stationary points (reference points) that are used afterwards to estimate a probabilistic radio frequency map of the area.
 
 ### grd: grid files
