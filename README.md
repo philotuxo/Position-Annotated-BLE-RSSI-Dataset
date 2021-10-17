@@ -2,13 +2,6 @@
 ## Introduction
 This dataset is intended for the researchers that work in indoor positioning domain and want to use positioning parameters that are labeled with highly precise ground truth positions. We collect the data using a specially designed setup of cameras and a Bluetooth beacon. The network of distributed Bluetooth sensors collect the received signal strength indicators (RSSI) of the captured packages emitted by a navigated Bluetooth beacon. Simultaneously, a two camera system captures videos from the environment that is decorated with a dense set of augmented reality (AR) tags. The AR-based visual system provides highly precise position information. These precise positions are used as the ground truth for the RSSI data. Any inference about the positions can now be evaluated accurately using these position labels.
 
-## Corresponding research
-- For a complete introduction to the distributed sensing setup and the method that collects and synchronizes the data, please refer to [(Daniş _et al_, ?)](#1). 
-- In order to see how to build a Sequential Monte Carlo (Particle Filter) based algorithm that employs these data to infer the positions of a navigated emitter, please see [(Daniş _et al_, 2021)](#2).
-- To estimate probabilistic radio frequency maps using Affine Wasserstein Combination that takes stationary information, please refer to [(Daniş _et al_, 2017)](#3).
-- To infer probabilistic radio frequency maps using neural networks, please refer to [(Güler _et al_, 2019)](#4).
-- To make inferences on positions using Bayesian forward algorithm, please refer to [(Daniş _et al_, 2021b)](#5).
-
 ## Top Level Directory Descriptions
 The directories in the dataset include different levels of information that are used to infer the positions that the beacon is on. Each directory has its own README.md that describe the data format and other assistive information.
 
@@ -30,7 +23,14 @@ Configuration files that describe the positions of the sensors and various param
 ### map: images of area maps
 Images of the area map that include the stationary sensors, furnitures, walls and columns.
 
-# References
+## Corresponding research
+- For a complete introduction to the distributed sensing setup and the method that collects and synchronizes the data, please refer to [(Daniş _et al_, ?)](#1). 
+- In order to see how to build a Sequential Monte Carlo (Particle Filter) based algorithm that employs these data to infer the positions of a navigated emitter, please see [(Daniş _et al_, 2021)](#2).
+- To estimate probabilistic radio frequency maps using Affine Wasserstein Combination that takes stationary information, please refer to [(Daniş _et al_, 2017)](#3).
+- To infer probabilistic radio frequency maps using neural networks, please refer to [(Güler _et al_, 2019)](#4).
+- To make inferences on positions using Bayesian forward algorithm, please refer to [(Daniş _et al_, 2021b)](#5).
+
+## References
 
 **<a id="1">(Daniş et al, ?)</a>**
 F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy. An Indoor Localization Dataset and Data Collection Framework with High Precision Position Annotation, *Submitted to Pervasive and Mobile Computing.*
