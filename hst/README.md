@@ -2,8 +2,8 @@
 
 Data directory for the fingerprints (or stationary reference histograms): we provide two fingerprint data sets collected from the area: "set_1" and "set_2" collected at different dates. The fingerprint positions are given in the following images:
 
-![Fingerprint positions for set_1](./hst_set_1.png?raw=true "Fingerprint positions for set_1" | width=100)
-![Fingerprint positions for set_2](./hst_set_2.png?raw=true "Fingerprint positions for set_2" | width=100)
+![Fingerprint positions for set_1](./hst_set_1.png?raw=true "Fingerprint positions for set_1")
+![Fingerprint positions for set_2](./hst_set_2.png?raw=true "Fingerprint positions for set_2")
 
 
 ### mbd files: multi ble data 
