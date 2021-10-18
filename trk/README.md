@@ -2,7 +2,9 @@
 
 We provide a set of RSSI values that are collected while navigating through some trajectories. Each sample of RSSI data is labeled with its position counterpart that is estimated via the AR-based location system.
 
-The file names do not follow a specific pattern. The file names are self explanatory.
+The directories contain the files for the track logs of the specific trajectory with respect to each sensor. The files in the current directory are the merged versions of the sensor-wise files. The merge operation was performed by respecting the time order.
+
+The file/directory names do not follow a specific pattern. The file/directory names are self explanatory.
 
 Each file consists of the lines that have the following pattern:
 <pre>&lt;timestamp&gt;,&lt;MAC sensor&gt;,&lt;MAC beacon&gt;,&lt;RSSI&gt;,&lt;coord_x&gt;,&lt;coord_y&gt;,&lt;coord_z&gt;,&lt;9 fields of rotation matrix&gt;</pre>
