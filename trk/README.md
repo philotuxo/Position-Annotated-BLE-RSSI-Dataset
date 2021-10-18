@@ -2,6 +2,9 @@
 
 We provide a set of RSSI values that are collected while navigating through some trajectories. Each sample of RSSI data is labeled with its position counterpart that is estimated via the AR-based positioning system.
 
+Sample trajectory visualizations are shown in the following images:
+
+
 The directories contain the files for the track logs of the specific trajectory with respect to each sensor. The files in the current directory are the merged versions of the sensor-wise files. The merge operation was performed by respecting the time order.
 
 The file/directory names do not follow a specific pattern. The file/directory names are self explanatory.
