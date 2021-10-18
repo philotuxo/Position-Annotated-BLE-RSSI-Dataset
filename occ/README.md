@@ -15,4 +15,4 @@ Header:
 Lines:
 <pre>&lt;2D_grid_coordinate&gt;::&lt;occupancy&gt;</pre>
 
-The researchers who want to use these data may cite (Daniş _et al_, 2021).
+The researchers who want to use these data may cite (Daniş _et al_, Access, 2021).
