@@ -8,7 +8,7 @@ Sample trajectory visualizations are shown in the following images:
 ![Straight_03](./straight_03.png "Straight 03")
 ![Straight_04](./straight_04.png "Straight 04")
 ![Rectangular](./rectangular_without_rotation.png "Rectangular")
-![Zigzaging](./zigzaging_without_rotation.png "Zigzaging")
+![Zigzagging](./zigzagging_without_rotation.png "Zigzagging")
 
 
 The directories contain the files for the track logs of the specific trajectory with respect to each sensor. The files in the current directory are the merged versions of the sensor-wise files. The merge operation was performed by respecting the time order.
