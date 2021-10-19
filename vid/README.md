@@ -11,4 +11,4 @@ The markers are generated using the ArUco Dictionary "DICT_6X6_50". When a prope
 Each marker has an AR-code and a pose (position and orientation) already defined with respect to the world frame. With this information in hand, we can estimate the camera pose when a marker is detected.
 
 The file contains the labels and the poses of the markers installed in the area in the following format:
-<pre>&lt;marker_label&gt;&lt;3D_position_in_world_frame&gt;&lt;3D_orientation_in_world_frame&gt;</pre>
+<pre>&lt;marker_label&gt;:&lt;3D_position_in_world_frame&gt;:&lt;3D_orientation_in_world_frame&gt;</pre>
