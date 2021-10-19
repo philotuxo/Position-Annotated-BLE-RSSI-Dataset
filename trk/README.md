@@ -15,7 +15,7 @@ The directories contain the files for the track logs of the specific trajectory 
 
 The file/directory names do not follow a specific pattern. The file/directory names are self explanatory.
 
-Each file consists of the lines that have the following pattern:
+Each mbd file consists of the lines that have the following pattern (extended version of the mbd files in the hst directory): 
 <pre>&lt;timestamp&gt;,&lt;MAC sensor&gt;,&lt;MAC beacon&gt;,&lt;RSSI&gt;,&lt;coord_x&gt;,&lt;coord_y&gt;,&lt;coord_z&gt;,&lt;3x3 orientation matrix&gt;</pre>
 
 The annotations are performed using a specially designed AR system. The details are given in (Daniş _et_al_., PMC, ?). The trajectories are also used in (Daniş _et_al_., Access, 2021). The researchers who want to use these data are expected to cite either of these articles.
