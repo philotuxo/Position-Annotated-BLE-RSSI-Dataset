@@ -12,3 +12,5 @@ Each marker has an AR-code and a pose (position and orientation) already defined
 
 The file contains the labels and the poses of the markers installed in the area in the following format:
 <pre>&lt;marker_label&gt;:&lt;3D_position_in_world_frame&gt;:&lt;3D_orientation_in_world_frame&gt;</pre>
+
+For a detailed information on how precise positioning is possible, please refer to (Daniş _et_al_., PMC, ?).
