@@ -48,7 +48,7 @@ We introduce a novel technique and an associated dataset for high resolution eva
   number={},
   pages={},
 }</pre>
-======================
+--------------------------------------------------------------------------------------------
 
 **<a id="2">(Daniş et al, Access, 2021)</a>**
 F. S. Daniş, A. T. Cemgil, and C. Ersoy. Adaptive sequential monte carlo filter for indoor positioning and tracking with bluetooth low energy beacons. _IEEE Access_, 9:37022–37038, 2021.
