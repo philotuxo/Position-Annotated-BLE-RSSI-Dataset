@@ -48,8 +48,7 @@ We introduce a novel technique and an associated dataset for high resolution eva
   number={},
   pages={},
 }</pre>
---------------------------------------------------------------------------------------------
-
+--------
 **<a id="2">(Daniş et al, Access, 2021)</a>**
 F. S. Daniş, A. T. Cemgil, and C. Ersoy. Adaptive sequential monte carlo filter for indoor positioning and tracking with bluetooth low energy beacons. _IEEE Access_, 9:37022–37038, 2021.
 
@@ -67,8 +66,7 @@ We model the tracking of Bluetooth low-energy (BLE) transmitters as a three laye
   pages={37022-37038},
   doi={10.1109/ACCESS.2021.3062818}
 }</pre>
-
-
+--------
 **<a id="3">(Daniş and Cemgil, Sensors, 2017)</a>**
 FS Daniş and AT Cemgil, “Model-Based Localization and Tracking Using Bluetooth Low-Energy Beacons,” *Sensors*, vol. 17, no. 11, p. 2484, Oct. 2017.
 
@@ -88,7 +86,7 @@ URL = {http://www.mdpi.com/1424-8220/17/11/2484},
 ISSN = {1424-8220},
 DOI = {10.3390/s17112484}
 }</pre>
-
+--------
 **<a id="4">(Güler et al, IPIN, 2019)</a>** 
 Sila Guler, F. Serhan Danis, and Ali Taylan Cemgil. Radio map estimation with neural networks and active learning for indoor localization. In Francesco Potorti, Valérie Renaudin, Kyle O’Keefe, and Filippo Palumbo, editors, _Proceedings of the Tenth International Conference on Indoor Positioning and Indoor Navigation - Work-in-Progress Papers_, number 2498 in CEUR Workshop Proceedings, pages 25–31, Aachen, 2019.
 
@@ -111,7 +109,7 @@ Practical indoor localization, by exploiting electromagnetic scattering properti
   eventdate = {2019-09-30},
   booktitle = {Proceedings of the Tenth International Conference on Indoor Positioning and Indoor Navigation - Work-in-Progress Papers}
 }</pre>
-
+--------
 **<a id="5">(Daniş et al, IPIN, 2021)</a>**
 F. Serhan Daniş, A. Taylan Cemgil, and Cem Ersoy. Tracking a mobile beacon: A pure probabilistic approach. _In 2021 International Conference on Indoor Positioning and Indoor Navigation (IPIN)_ (ACCEPTED),Lloret de Mar, Spain, 2021.
 
