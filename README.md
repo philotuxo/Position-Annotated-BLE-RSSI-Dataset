@@ -30,7 +30,7 @@ Images of the area map that include the stationary sensors, furnitures, walls an
 - In order to see how to build a Sequential Monte Carlo \(Particle Filter\) based algorithm that employs these data to infer the positions of a navigated emitter, please see [\[Daniş _et al_, Access, 2021\]](#access).
 - To estimate probabilistic radio frequency maps using Affine Wasserstein Combination that takes stationary information, please refer to [\[Daniş _et al_, Sensors, 2017\]](#sensors).
 - To infer probabilistic radio frequency maps using neural networks, please refer to [\[Güler _et al_, IPIN, 2019\]](#ipin2019).
-- To make inferences on positions using Bayesian forward algorithm, please refer to [\[Daniş _et al_, IPIN, 2021\]](#ipin2021).
+- To make inferences on positions using Bayesian forward algorithm.
 
 ## References
 **<a id="pmc">\[Daniş _et al._, -, -\]</a>**
@@ -44,6 +44,3 @@ FS Daniş and AT Cemgil, “Model-Based Localization and Tracking Using Bluetoot
 
 **<a id="ipin2019">\[Güler _et al._, IPIN, 2019\]</a>**
 Sila Guler, F. Serhan Danis, and Ali Taylan Cemgil. Radio map estimation with neural networks and active learning for indoor localization. In Francesco Potorti, Valérie Renaudin, Kyle O’Keefe, and Filippo Palumbo, editors, _Proceedings of the Tenth International Conference on Indoor Positioning and Indoor Navigation - Work-in-Progress Papers_, number 2498 in CEUR Workshop Proceedings, pages 25–31, Aachen, 2019.
-
-**<a id="ipin2021">\[Daniş _et al._, IPIN, 2021\]</a>**
-F. Serhan Daniş, A. Taylan Cemgil, and Cem Ersoy. Tracking a mobile beacon: A pure probabilistic approach. _In 2021 International Conference on Indoor Positioning and Indoor Navigation \(IPIN\)_ \(ACCEPTED\),Lloret de Mar, Spain, 2021.
