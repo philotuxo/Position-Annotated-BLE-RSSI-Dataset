@@ -26,15 +26,15 @@ Configuration files that describe the positions of the sensors and various param
 Images of the area map that include the stationary sensors, furnitures, walls and columns.
 
 ## Corresponding research
-- For a complete introduction to the distributed sensing setup and the method that collects and synchronizes the data, please refer to [\[Daniş _et al_, ?, ?\]](#pmc).
+- For a complete introduction to the distributed sensing setup and the method that collects and synchronizes the data, please refer to [\[Daniş _et al_, PMC, 2022\]](#pmc).
 - In order to see how to build a Sequential Monte Carlo \(Particle Filter\) based algorithm that employs these data to infer the positions of a navigated emitter, please see [\[Daniş _et al_, Access, 2021\]](#access).
 - To estimate probabilistic radio frequency maps using Affine Wasserstein Combination that takes stationary information, please refer to [\[Daniş _et al_, Sensors, 2017\]](#sensors).
 - To infer probabilistic radio frequency maps using neural networks, please refer to [\[Güler _et al_, IPIN, 2019\]](#ipin2019).
 - To make inferences on positions using Bayesian forward algorithm.
 
 ## References
-**<a id="pmc">\[Daniş _et al._, -, -\]</a>**
-F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy. An Indoor Localization Dataset and Data Collection Framework with High Precision Position Annotation, *Submitted to Pervasive and Mobile Computing.*
+**<a id="pmc">\[Daniş _et al._, PMC, 2022\]</a>**
+F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy. An Indoor Localization Dataset and Data Collection Framework with High Precision Position Annotation, Pervasive and Mobile Computing,Volume 81,2022.
 
 **<a id="access">\[Daniş _et al._, Access, 2021\]</a>**
 F. S. Daniş, A. T. Cemgil, and C. Ersoy. Adaptive sequential monte carlo filter for indoor positioning and tracking with bluetooth low energy beacons. _IEEE Access_, 9:37022–37038, 2021.
