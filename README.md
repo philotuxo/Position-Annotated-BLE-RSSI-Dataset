@@ -33,6 +33,9 @@ Images of the area map that include the stationary sensors, furnitures, walls an
 - To make inferences on positions using Bayesian forward algorithm.
 
 ## References
+**<a id="peva">\[Daniş _et al._, Performance Evaluation, 2023\]</a>**
+FS Daniş and AT Cemgil, “Probabilistic indoor tracking of Bluetooth Low-Energy beacons,” *Performance Evaluation*, vol. 162, p. 102374, Oct. 2023.
+
 **<a id="pmc">\[Daniş _et al._, PMC, 2022\]</a>**
 F. Serhan Daniş and A. Teoman Naskali and A. Taylan Cemgil and Cem Ersoy. An Indoor Localization Dataset and Data Collection Framework with High Precision Position Annotation, Pervasive and Mobile Computing,Volume 81,2022.
 
