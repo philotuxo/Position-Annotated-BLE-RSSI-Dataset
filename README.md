@@ -26,14 +26,14 @@ Configuration files that describe the positions of the sensors and various param
 Images of the area map that include the stationary sensors, furnitures, walls and columns.
 
 ## Corresponding research
+- To make inferences on positions using Bayesian forward algorithm (a.k.a. Forward Filter or HMM filter), please refer to [\[Daniş _et al_, PEVA, 2023\]](#peva).
 - For a complete introduction to the distributed sensing setup and the method that collects and synchronizes the data, please refer to [\[Daniş _et al_, PMC, 2022\]](#pmc).
 - In order to see how to build a Sequential Monte Carlo \(Particle Filter\) based algorithm that employs these data to infer the positions of a navigated emitter, please see [\[Daniş _et al_, Access, 2021\]](#access).
 - To estimate probabilistic radio frequency maps using Affine Wasserstein Combination that takes stationary information, please refer to [\[Daniş _et al_, Sensors, 2017\]](#sensors).
 - To infer probabilistic radio frequency maps using neural networks, please refer to [\[Güler _et al_, IPIN, 2019\]](#ipin2019).
-- To make inferences on positions using Bayesian forward algorithm.
 
 ## References
-**<a id="peva">\[Daniş _et al._, Performance Evaluation, 2023\]</a>**
+**<a id="peva">\[Daniş _et al._, PEVA, 2023\]</a>**
 FS Daniş and AT Cemgil, “Probabilistic indoor tracking of Bluetooth Low-Energy beacons,” *Performance Evaluation*, vol. 162, p. 102374, Oct. 2023.
 
 **<a id="pmc">\[Daniş _et al._, PMC, 2022\]</a>**
